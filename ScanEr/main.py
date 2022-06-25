@@ -35,7 +35,6 @@ def main():
     def qrfound(qr):
         if verify(qr):
             window.Element('status').update('Verified')
-            time.sleep(5)
             
         print(qr)
 
@@ -44,7 +43,9 @@ def main():
         qr = decode(gray)
         return qr
     while True:
+        
         event, values = window.read(timeout=10)
+
         if event == 'Exit' or event == sg.WIN_CLOSED:
             return
         recording = True
