@@ -1,0 +1,12 @@
+#logo{
+    height:100px;
+    width: 100px;
+}
+#navigationbar{
+    display: flex;
+    flex-direction: row;
+}
+#heading{
+    margin-left: 50px;
+    font-size: 25px;
+}
