@@ -1,0 +1,89 @@
+html {
+    display: table;
+    margin: auto;
+}
+html, body {
+    height: 100%;
+    /* scrollbar-width: 10px; */
+    width: 100%;
+    
+}
+body{
+
+    margin: 0px;
+    padding: 0px;
+    background-size: auto;
+    background-position: center;
+    font-family: sans-serif;
+    background-repeat:   no-repeat; 
+    background-size:  cover;                   
+}
+body {
+    display:fixed;
+    display: flex;
+    flex-direction: column;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+.create{
+    
+    width: 381px;
+    height: 715px;
+    background: rgb(100, 81, 245);
+    color: rgb(0, 0, 0);
+    background-attachment: scroll;
+    top: 63%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    resize: vertical;
+    /* padding: 70px 30px; */
+}
+h1{
+    /* position: fixed; */
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    /* margin-top: 2px; */
+    padding: 2px 34px;
+}
+input{
+    width: 86%;
+    margin-left: 21px;
+    margin-top: 3px;
+    margin-bottom: 9px;
+    border-bottom: 1px solid;
+    height: 20px;
+    font-size: 14px;
+}
+input:focus {
+    outline-width:0;
+    cursor: vertical-text;
+    outline:none;
+    border: 1px solid #FFF;
+    inline-size: 85%; 
+    }
+input[type="button"]{
+    width: 88%;
+    margin-top: 15px;
+    border-bottom: 1px solid;
+    height: 38px;
+    font-size: 23px;
+    font-weight: 700;
+    
+}
+input[type="button"]:hover{
+    cursor: pointer;
+    background-color: rgb(32, 81, 228);
+}
+
+label{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin-left: 24px;
+}
+/* input[type="password"]{
+
+} */
